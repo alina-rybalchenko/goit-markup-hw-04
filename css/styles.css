@@ -211,6 +211,8 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -274,6 +276,7 @@ img {
 /* h3 for all sections */
 
 .section-subtitle {
+  text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -350,7 +353,8 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-card-link:hover {
+.team-card-link:hover,
+.team-card-link:focus {
   background-color: #404bbf;
 }
 
@@ -378,7 +382,8 @@ img {
   width: calc((100% - 24px * 2) / 3);
 }
 
-.portfolio-item:hover {
+.portfolio-item:hover,
+.portfolio-item:focus {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -452,7 +457,8 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
