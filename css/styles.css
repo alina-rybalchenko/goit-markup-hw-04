@@ -428,16 +428,18 @@ img {
 
 .footer-container {
   display: flex;
-  margin-right: 120px;
+
   align-items: baseline;
 }
 
 .footer-left {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-right {
   max-width: 208px;
+  margin-right: 120px;
 }
 
 .page-footer {
