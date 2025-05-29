@@ -271,7 +271,6 @@ img {
 }
 
 .features-subtitle {
-  margin-top: 8px;
   margin-bottom: 8px;
 }
 
@@ -437,8 +436,7 @@ img {
 }
 
 .footer-right {
-  max-width: 208px;
-  margin-right: 120px;
+  width: 208px;
 }
 
 .page-footer {
