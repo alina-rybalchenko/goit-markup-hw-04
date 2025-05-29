@@ -309,7 +309,6 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  justify-content: center;
 }
 
 .team-item {
@@ -341,6 +340,7 @@ img {
   display: flex;
   padding: 0 16px;
   align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 
